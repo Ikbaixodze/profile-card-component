@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(assets/bg-pattern-top.svg) right 45vw bottom 45vh no-repeat,
+    url(assets/bg-pattern-bottom.svg) 45vw 45vh no-repeat hsl(185, 75%, 39%);
+  height: 100vh;
+  display: flex;
+}
+
+.mainContainer {
+  width: 350px;
+  background-color: white;
+  margin: auto;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+header {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image2 {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  border: 5px solid white;
+  position: absolute;
+  left: 0;
+  top: 130px;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+section {
+  margin-top: 68px;
+  text-transform: capitalize;
+  color: #6b7082;
+  text-align: center;
+}
+
+span {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 100%;
+  font-style: bold;
+  color: black;
+}
+
+h1.bio {
+  font-size: 18px;
+}
+
+p.bio {
+  font-size: 14px;
+  margin-top: 13px;
+  margin-bottom: 28px;
+}
+
+hr {
+  border: 1px solid #e8e9ec;
+  margin-bottom: 24px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 27px;
+}
+
+.amount {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+h1.value {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 9px;
+}
+
+p.type {
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  color: #6b7082;
+}
